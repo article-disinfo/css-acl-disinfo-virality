@@ -1,0 +1,7 @@
+.DS_Store
+FakeNewsNet/data/*.jsonl
+FakeNewsNet/data/embeddings/*.pt
+evons/data/evons.csv
+evons/data/embeddings/*.pt
+.github/*
+tools/generate_paper_tables.py
