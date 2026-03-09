@@ -68,21 +68,19 @@ Per script, expected files are:
 
 See `training/results_readme.md` for details.
 
-## Build Publication Tables
+## Build statistical evaluations
 
 After all experiment outputs exist, run:
 
 ```bash
 python tools/create_file_for_stat_eval.py
 python tools/statistical_evaluation.py --input report/combined_cv.csv --output report/stats_current.csv
-python tools/generate_paper_tables.py
 ```
 
 This produces:
 
 - `report/combined_cv.csv`
 - `report/stats_current.csv`
-- `report/tables_*.tex`
 
 ## Notes For Reproducibility
 
